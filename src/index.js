@@ -1,12 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './parent';
+import React from "react";
+import ReactDOM from "react-dom";
+import Parent from "./parent";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Parent />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 reportWebVitals();
